@@ -331,7 +331,7 @@ body{
     }
     }
     #navbar {
-    background-color: #ade7e8;
+    background-color: #b3defd;
     position: fixed;
     top: -85px;
     width: 100%;
@@ -470,7 +470,7 @@ body{
     background:#000;
     }
     
-    .price_cards{
+    .sy_cards{
     width:100%;
     padding:5vh 0;
     display:flex;
@@ -479,7 +479,7 @@ body{
     text-align:center;
     }
     
-    .price_cards .card{
+    .sy_cards .card{
     width:25%;
     border-radius:30px;
     display:inline-block;
@@ -489,12 +489,12 @@ body{
     transition:0.5s;
     }
     
-    .price_cards .card:hover{
+    .sy_cards .card:hover{
     box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
     padding:3% 2%;
     }
     
-    .price_cards .card img{
+    .sy_cards .card img{
     width:80px;
     height:100px;
     position:absolute;
@@ -506,33 +506,33 @@ body{
     opacity:0;
     }
     
-    /*.price_cards .card:hover > .badge{
+    /*.sy_cards .card:hover > .badge{
     -moz-transition: all 0.8s ease-out; -o-transition: all 0.8s ease-out; 
     -webkit-transition: all 0.8s ease-out;
     -ms-transition: all 0.8s ease-out;
     transition: all 0.8s ease-out;  
     opacity:1;
     }*/
-    .price_cards .card .title{
+    .sy_cards .card .title{
     color:#232121;
     }
     
-    .price_cards .card .sub-title{
+    .sy_cards .card .sub-title{
     color:rgba(20, 18, 18, 0.8);
     }
     
-    .price_cards .card_1{
+    .sy_cards .card_1{
     background:#ade7e8;
     }
-    .price_cards .card_2{
+    .sy_cards .card_2{
     background:#ade7e8;
     }
-    .price_cards .card_3{
+    .sy_cards .card_3{
     background:#ade7e8;
     }
     
     
-    .price_cards .card section{
+    .sy_cards .card section{
     width:80%;
     margin:auto;
     background:#fff;
@@ -541,30 +541,30 @@ body{
     margin-top:8vh;
     }
     
-    .price_cards .card section ul{
+    .sy_cards .card section ul{
     width:100%;
     padding:10px;
     }
     
-    .price_cards .card section ul li{
+    .sy_cards .card section ul li{
     padding:10px 0;
     text-align:center;
     }
     
-    .price_cards .card section .btn1{
+    .sy_cards .card section .btn1{
     position:relative;
     top:20px;
     }
     
     @media (max-width:900px){
-    .price_cards{
+    .sy_cards{
     width:100%;
     display:block;
     }
-    .price_cards .card{
+    .sy_cards .card{
     width:90%;
     }
-    .price_cards .card img{
+    .sy_cards .card img{
     position:absolute;
     left:-10px;
     top:-10px;
