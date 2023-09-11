@@ -331,7 +331,7 @@ body{
     }
     }
     #navbar {
-    background-color: #b3defd;
+    background-color: #A687DF;
     position: fixed;
     top: -85px;
     width: 100%;
@@ -522,13 +522,13 @@ body{
     }
     
     .sy_cards .card_1{
-    background:#ade7e8;
+    background:#A687DF;
     }
     .sy_cards .card_2{
-    background:#ade7e8;
+    background:#A687DF;
     }
     .sy_cards .card_3{
-    background:#ade7e8;
+    background:#A687DF;
     }
     
     
@@ -649,7 +649,7 @@ body{
     width:90%;
     box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
     border-radius:20px;
-    background:#ade7e8;
+    background:#A687DF;
     padding:20px;
     margin:auto;
     position:relative;
