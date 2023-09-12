@@ -68,12 +68,15 @@ body{
         font-weight: 400;
         color:#670576;
         }
+<<<<<<< HEAD
     #how{
       font-style:normal;
       font-size: xx-large;
       font-weight: 1000;
       color:#fffcff;
     }    
+=======
+>>>>>>> c6a97d5d6d7547371f0dc18ca680cc62ceb5d81a
     table{
     width:100%;
     border-collapse:collapse;
@@ -201,9 +204,13 @@ body{
     -webkit-appearance: none;
     box-shadow: inset 0px 0px 5px #aa34e5, inset -1px -1px 20px #FFF;
     padding:10px 20px;
+<<<<<<< HEAD
     border-radius:15px;
     align-items: center;
     font-weight: 400;
+=======
+    border-radius:40px;
+>>>>>>> c6a97d5d6d7547371f0dc18ca680cc62ceb5d81a
     
     }
     
@@ -249,7 +256,11 @@ body{
     }
     #navbar a {
         display: inline-block;
+<<<<<<< HEAD
         margin-right: 5px; 
+=======
+        margin-right: 10px; 
+>>>>>>> c6a97d5d6d7547371f0dc18ca680cc62ceb5d81a
       }
     .dropdown-content:before {
     content:"\f0d8";
