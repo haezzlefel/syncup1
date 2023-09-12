@@ -3,36 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>main</title>
-<!--EXTERNAL CSS-->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="#">
-<!--GOOGLE FONTS-->
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap" rel="stylesheet"> 
-<!--PLUGIN-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-<!--FONT AWESOME-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <!--HEADER-->
 <header>
 <div class="banner">
-<span>
-<a href="#"><em style="color:#0ed7de;">Email</em>: syncup@gmail.com</a>
-
-</span>
-<span>
-<a href="#"><i class="fa fa-facebook"></i></a>
-<a href="#"><i class="fa fa-instagram"></i></a>
-<a href="#"><i class="fa fa-twitter"></i></a>
-</span>
 </div>
 <nav class="nav" id="nav">
-<a href="#" class="active"><em></em>SyncUp <l style="font-weight:200;"></l> </a>
-  <a href="#">Home</a>
+<a href="#" class="active">SyncUp<l style="font-weight:200;"></l> </a>
+<a href="#">Home</a>
 <div class="dropdown">
 <button class="dropbtn">Careers</button>
 <div class="dropdown-content">
@@ -57,17 +42,14 @@
 <a href="#">C</a>
 </div>
 </div> 
-<a href="#">FaQs</a>
-
-<a class="icon" id="icon" onclick="opennav()"><i class="fa fa-bars"></i></a>
+<a href="#">FAQs</a>
+<!---<a class="icon" id="icon" onclick="opennav()"><i class="fa fa-bars"></i></a>
 </nav>
-
 <div id="navbar">
-<a href="#" class="active"><em></em> <l style="font-weight:200;"></l>SyncUp</a>
-
+<a href="#" class="active"><l style="font-weight:200;"></l>SyncUp Logo Here</a>
+-->
 </div>
 </div> 
-
 </div>
 </header>
 <!--CONTAINER-->
@@ -83,7 +65,7 @@
 </span>
 </h1>
 <h5 class="sub-title">All your needs in one place.</h5>
-<a href="#" class="btn1">Checkout our discord server!!!</a>
+<a href="#" class="btn1" style="color: black;">LOrem ipsum</a>
 </section>
 </td>
 <td>
@@ -104,7 +86,7 @@
 <div class="sy_cards">
 <!--CARD_BEGINING-->
 <div class="card card_1">
-<img src="https://i.ibb.co/BCRGYmx/bronze.png" class="badge" alt="STATER">
+<img src="#" class="badge" alt="STATER">
 <h1 class="title">Our Services</h1>
 <span class="sub-title">Free</span>
 <section>
@@ -119,7 +101,7 @@
 <!--CARD_ENDS-->
 <!--CARD_BEGINING-->
 <div class="card card_2">
-<img src="https://i.ibb.co/DQR0Mzt/silver.png" class="badge" alt="PREMIUM">
+<img src="#" class="badge" alt="PREMIUM">
 <h1 class="title">Lorem</h1>
 <span class="sub-title">1$ per month</span>
 <section>
@@ -134,7 +116,7 @@
 <!--CARD_ENDS-->
 <!--CARD_BEGINING-->
 <div class="card card_3">
-<img src="https://i.ibb.co/Nmh4LR0/gold.png" class="badge" alt="UNLIMITED">
+
 <h1 class="title">Lorem</h1>
 <span class="sub-title">Lorem ipsum</span>
 <section>
@@ -194,7 +176,7 @@
 <!--SECTION4-->
 <section class="section4">
 <div class="title_header">
-<h1 class="title">How do we work?</h1>
+<h1 class="title" id="how">How do we work?</h1>
 </div>
 <div class="cards">
 <div class="card">
@@ -223,7 +205,9 @@
 <a href="#"><i class="fa fa-youtube"></i></a>
 <a href="#"><i class="fa fa-twitter"></i></a>
 </div>
-
+<span>
+    <a href="#"><em style="color:#670576;" id="e">Email</em>: syncup@gmail.com</a>
+</span>
 <div class="row">
 <ul>
 <li><a href="#">Contact us</a></li>
@@ -233,9 +217,8 @@
 <li><a href="#">Packages</a></li>
 </ul>
 </div>
-
 <div class="row">
-Copyright © 2023 SyncUp - All rights reserved
+Copyright © 2023 SyncUp - All Rights Reserved
 </div>
 </div>
 </footer>

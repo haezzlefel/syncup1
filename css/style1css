@@ -25,16 +25,27 @@ body{
     
     .btn1,.btn2,.btn3{
     padding:10px 20px;
-    border-radius:10px;
+    border-radius:3px;
     text-align:center;
     color:#fff;
     }
-    
+
     .btn1{
-    background:#A687DF;
+    background:#0ed7de;
     }
-    
+
     .btn2{
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -48,6 +48,7 @@ body{
+  
     background:#d982ef;
     }
     
@@ -45,38 +56,52 @@ body{
     .btn1:hover,.btn2:hover,.btn3:hover{
     box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
     }
-    
+
     .title{
     font-size:2.4em;
-    color: #1f989c;
     }
-    
+
     .sub-title{
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -57,9 +58,16 @@ body{
+  
     font-size:1.3em;
     color:gray;
     }
-    
+
     em{
     font-style:normal;
-    font-size: xx-large;
-    font-weight: 1000;
-    color:#A687DF;
+    color:#0ed7de;
     }
-    #e{
-        font-style:normal;
-        font-size: medium;
-        font-weight: 400;
-        color:#670576;
-        }
-    #how{
-      font-style:normal;
-      font-size: xx-large;
-      font-weight: 1000;
-      color:#fffcff;
-    }    
+
     table{
     width:100%;
     border-collapse:collapse;
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -127,7 +135,7 @@ body{
+  
     }
     
     table td{
@@ -127,7 +152,6 @@ body{
     transform-origin: 50% 100%;
     display: inline-block;
     }
-
     /*NAVIGATION*/
     header{
     width:100%;
@@ -138,15 +162,32 @@ body{
     top:0;
     z-index:999;
     }
-    
+
     header .banner{
     width:80%;
-    padding:0px 0px;
+    padding:10px 0px;
     color:#1e1e1e;
     }
+
+
     
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -156,14 +164,14 @@ body{
+  
     header .banner span:nth-child(1) a{
-    margin:0px 1px;
+    margin:0px 5px;
     font-size:13px;
     color:#000;
     }
@@ -160,29 +201,40 @@ body{
     background:#20d0e0;
     color:#fff;
     border-radius:50%;
-    height:15px;
-    width:15px;
+    height:20px;
+    width:20px;
     padding:6px;
     float:right;
     text-align:center;
     box-shadow:0px 6px -16px 6px rgba(1,1,1,0.5);
     }
-    
+
     header .nav{
     position:fixed;
-    top:0em;
-    width:100%;
+    top:3em;
+    width:80%;
     box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
     background:#fff;
-    border-radius:10px;
-    padding:5px;
+    border-radius:40px;
+    padding:20px;
     transition:0.5s;
-    border-top:5px solid #A687DF;
+    border-top:1px solid #0ed7de;
     }
-    
+
     header .nav a{
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -188,7 +196,7 @@ body{
+  
     display:inline-block;
-    margin:0px 80px;
+    margin:0px 20px;
     text-decoration:none;
     color:#000;
     transition:0.5s;
@@ -199,19 +251,34 @@ body{
     transition: all 0.2s ease-in-out;
     appearance: none;
     -webkit-appearance: none;
-    box-shadow: inset 0px 0px 5px #aa34e5, inset -1px -1px 20px #FFF;
+    box-shadow: inset 0px 0px 1px #BABECC, inset -1px -1px 2px #FFF;
     padding:10px 20px;
-    border-radius:15px;
-    align-items: center;
-    font-weight: 400;
-    
+    border-radius:40px;
+    font-weight:bold;
     }
-    
+
     header .nav .dropdown li:before{
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -229,9 +237,12 @@ body{
+  
     content:"\f0a4";
     font-family:"FontAwesome";
     color:#36cccb;
-    margin:0px 2px;
+    margin:0px 4px;
     }
     
     header .nav .icon{
@@ -245,15 +312,29 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-top:50px;
+    margin-top:10px;
     }
-    #navbar a {
-        display: inline-block;
-        margin-right: 5px; 
-      }
+
     .dropdown-content:before {
     content:"\f0d8";
     font-family:"FontAwesome";
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -748,7 +759,7 @@ body{
+  
     position:absolute;
     text-align:center;
     left:45%;
@@ -491,7 +572,6 @@ body{
     
     .sy_cards{
     width:100%;
-    min-height: 50px;
     padding:5vh 0;
     display:flex;
     align-items:center;
@@ -768,30 +848,52 @@ body{
     /*FOOTER*/
     .footer{
     background:#eaeff9;
-    padding:20px 0px;
+    padding:30px 0px;
     font-family: 'Play', sans-serif;
     text-align:center;
     }
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -757,18 +768,18 @@ body{
+  
     
     .footer .row{
     width:100%;
     margin:1% 0%;
     padding:0.6% 0%;
-    color:#670576;
+    color:gray;
     font-size:0.8em;
     }
-    
+
     .footer .row a{
     text-decoration:none;
-    color:#670576;
+    color:gray;
     transition:0.5s;
     }
-    
+
     .footer .row a:hover{
-    color:#ffffff;
+    color:#fff;
     }
-    
+
     .footer .row ul{
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
     width:100%;
     }
     
